@@ -122,9 +122,15 @@ function showContent(){
         let img=each.img;
         let desc=each.desc;
 
+ 
+       contentsDOM.innerHTML+= '<div class="col-sm-6 mt-4"><div class="row"><div class="col-lg-4 col-xl-4 col-md-6 col-xxl-3"><img src="'+img+'" alt="" style="object-fit: cover; border: 2px solid black;"></div><div class="col-lg-8 col-md-6 col-xl-8 ml-4 col-xxl-9"><h5 >'+title+' <span class="float-end">'+price+'₺</span></h5><hr><p>'+desc+'</p></div></div></div>';
+  
 
-       contentsDOM.innerHTML+= '<div class="col-sm-6 mt-4"><div class="row"><div class="col-sm-3"><img src="'+img+'" alt="" style="object-fit: cover; border: 2px solid black;"></div><div class="col-sm-9 ml-4"><h5 >'+title+' <span class="float-end">'+price+'₺</span></h5><hr><p>'+desc+'</p></div></div></div>';
-        
+
+
+
+
+     
         
     }
     
